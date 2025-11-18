@@ -52,7 +52,7 @@ if file:
 
             with st.expander('**B2B : nonB2B**'):
 
-                st.info('Tasks that can be moved vs tasks that cannot be moved for the same reservation.')
+                st.info('B2B tasks and non-B2B tasks for the same reservation.')
 
                 st.dataframe(merged_df, hide_index=True)
     
